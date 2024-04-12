@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\Usuario\Desktop\EDIX-DAM\2º DAM\TFC\WorkSpaceRestech\.metadata\.plugins\org.eclipse.jdt.core
+2433116466.index
+2273822061.index
+3513006395.index
+1865797976.index
