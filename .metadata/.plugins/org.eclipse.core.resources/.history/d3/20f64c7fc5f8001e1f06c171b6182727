@@ -23,7 +23,7 @@ public VentanaPrincipal(){
 
 	private void inicializarComponentes(){
 		
-		botonAltaProducto = new JButton("Productos");
+		botonAltaProducto = new JButton("Producto");
 		botonAltaProducto.setBounds(400,100,150,30);
 		add(botonAltaProducto);
 		

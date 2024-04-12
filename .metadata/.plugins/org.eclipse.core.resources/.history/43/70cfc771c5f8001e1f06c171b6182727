@@ -23,22 +23,33 @@ public VentanaPrincipal(){
 
 	private void inicializarComponentes(){
 		
-		botonAltaProducto = new JButton("Productos");
+		botonAltaProducto = new JButton("Alta Producto");
 		botonAltaProducto.setBounds(400,100,150,30);
 		add(botonAltaProducto);
 		
-		BotonConsultaProducto = new JButton("Platos");
+		BotonConsultaProducto = new JButton("Consultar Producto");
 		BotonConsultaProducto.setBounds(400,150,150,30);
 		add(BotonConsultaProducto);
 		
-		botonAltaPlato = new JButton("Proveedores");
+		botonAltaPlato = new JButton("Alta Plato");
 		botonAltaPlato.setBounds(400,200,150,30);
 		add(botonAltaPlato);
 		
-		botonConsultaPlato = new JButton("Usuarios");
+		botonConsultaPlato = new JButton("Consultar Plato");
 		botonConsultaPlato.setBounds(400,250,150,30);
 		add(botonConsultaPlato);
 		
+		botonAltaProveedor = new JButton("Alta Proveedor");
+		botonAltaProveedor.setBounds(400,250,150,30);
+		add(botonAltaProveedor);
+		
+		botonConsultaProveedor = new JButton("Consultar Proveedor");
+		botonConsultaProveedor.setBounds(400,300,150,30);
+		add(botonConsultaProveedor);
+		
+		botonAltaUsuario = new JButton("Alta Usuario");
+		botonAltaUsuario.setBounds(400,350,150,30);
+		add(botonAltaUsuario);
 	}
 	
 	public void IniciarListener(ControladorEventos controlador) {
